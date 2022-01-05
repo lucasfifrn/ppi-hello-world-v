@@ -13,7 +13,9 @@
     $tecnologias = Conexao::select("tecnologia",
     "id, nome");
     
-    print_r($tecnologias);
+    foreach ($tecnologias as $tecnologia => $value) {
+        echo $value['nome'] . '; ';
+    }
     ?>
 </body>
 </html>
