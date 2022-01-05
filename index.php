@@ -7,7 +7,7 @@
     <title>Olá povos!</title>
 </head>
 <body>
-    <h1>App do Marcelo Jr.</h1>
+    <h1>App do Lucas Feliciano.</h1>
     <?php
     require_once "model/Conexao.php";
     $tecnologias = Conexao::select("tecnologia",
