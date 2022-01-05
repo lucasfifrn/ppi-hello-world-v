@@ -14,7 +14,7 @@
     "id, nome");
     
     foreach ($tecnologias as $tecnologia => $value) {
-        echo $value . '; ';
+        echo $value->nome . '; ';
     }
     ?>
 </body>
