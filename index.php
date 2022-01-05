@@ -12,6 +12,10 @@
     require_once "model/Conexao.php";
     $tecnologias = Conexao::select("tecnologia",
     "id, nome");
+    
+    foreach ($tecnologias as $tecnologia) {
+        echo $tecnologia . '; ';
+    }
     ?>
 </body>
 </html>
