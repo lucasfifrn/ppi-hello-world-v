@@ -13,8 +13,8 @@
     $tecnologias = Conexao::select("tecnologia",
     "id, nome");
     
-    foreach ($tecnologias as $tecnologia) {
-        echo $tecnologia . '; ';
+    foreach ($tecnologias as $tecnologia => $value) {
+        echo $value . '; ';
     }
     ?>
 </body>
